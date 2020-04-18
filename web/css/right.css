@@ -1,0 +1,31 @@
+.right
+{
+    width: 220px;
+    height: auto;
+}
+.titleNews
+{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.titleNews a{
+    color: #42554e;
+    text-decoration: none;
+}
+.searchBox
+{
+    border: dashed 1px;
+}
+.searchButton
+{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+.lastArticles 
+{
+   margin-top: 10px;
+}
+

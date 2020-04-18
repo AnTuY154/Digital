@@ -1,0 +1,98 @@
+body
+{
+    background-color: #E7E7E7;
+}
+.container
+{
+    background-image: url(../images/bg.jpg) ;
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;  
+    font-family: sans-serif;
+}
+.content
+{
+    width: 760px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+.main
+{ 
+    width: 600px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;    
+}
+.main a
+{
+    text-decoration: none;
+    color: #42554e;
+    font-weight: bold;
+}
+.signature
+{
+    display: flex;
+    color: #42554e;
+    margin-top: 5px;
+    justify-content: flex-end;
+}
+.image img
+{
+    width: 350px;
+    height: auto;
+}
+.text{
+    white-space: pre-line;
+    font-size: 15px;
+}
+.text a{
+    color: #42554e;
+}
+
+.icon1{
+    width: 10px;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.icon2{
+    width: 10px;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.image_search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: red !important;
+    pointer-events: none;
+}
+.flex{
+    display: flex;
+}
+.clear{
+    clear: both;
+}
+.maargin-top{
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+.padding{
+    padding: 15px;
+}
